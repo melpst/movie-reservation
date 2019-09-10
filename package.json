@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "set NODE_ENV=development&& nodemon src/app.js --exec babel-node",
-    "init:jasmine": "node ./node_modules/jasmine/bin/jasmine.js init"
+    "init:jasmine": "node ./node_modules/jasmine/bin/jasmine.js init",
+    "test": "set NODE_ENV=test&& babel-node spec/run.js"
   },
   "dependencies": {
     "body-parser": "^1.19.0",

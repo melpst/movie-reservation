@@ -6,7 +6,7 @@
   "author": "Jitlada Supreeyaporn",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon src/app.js --exec babel-node",
+    "dev": "set NODE_ENV=development&& nodemon src/app.js --exec babel-node",
     "init:jasmine": "node ./node_modules/jasmine/bin/jasmine.js init"
   },
   "dependencies": {
